@@ -7,9 +7,16 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <Link to="/">
+            <Link to="/profile">
               <div className={"nav-link"} href="#">
-                Home
+                Profile
+              </div>
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link to="/counters">
+              <div className={"nav-link"} href="#">
+                Counters
               </div>
             </Link>
           </li>
